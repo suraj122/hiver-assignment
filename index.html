@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hiver Assignment</title>
+		<link rel="stylesheet" href="src/style/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Ubuntu:400,500,700" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<!-- Hero Section -->
+			<section class="hero">
+				<div class="container">
+					<header class="header">
+						<a href="#" class="logo-box">
+							<img src="images/logo.png" class="logo" alt="logo">
+						</a>
+						<div class="contact">
+							<img src="images/contact-icon.png" class="contact__icon" alt="contact icon">
+							<p class="contact__no">+91 650-242-9081</p>
+						</div>
+					</header>
+					<div class="hero__tag">
+						<h1>Wow Your Customers</h1>
+						<h1>with exceptional customer service. Try  Hiver!</h1>
+					</div>
+					<div class="signup-btn">
+						<button class="btn" id="modalLink" type="button">Get Started</button>
+					</div>
+					<div class="form-container" id="modal">
+						<div class="signup-form">
+							<div class="text-right">
+								<h1 id="close" class="close">X</h1>
+							</div>
+							<form class="form" novalidate onsubmit="onSubmitPress(event)">
+								<fieldset>
+									<label for="email">
+										<img src="images/mail-icon.png" alt="mail icon">
+										Enter email
+									</label>
+									<input class="form-control" type="email" id="email">
+									<label for="">
+										<img src="images/phone-icon.png" alt="phone icon">
+										Enter phone
+									</label>
+									<input class="form-control" type="number" id="phone" name="phone" required>
+									<div class="error">
+										<span id="error"></span>
+									</div>
+									<input type="submit" class="form-control submit-btn" value="Get Started for free">
+								</fieldset>
+							</form>
+							<p>By signing up, you agree to our T & C and privacy policy</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Hero Section -->
+
+			<!-- Testimonial -->
+			<section class="testimonial">
+				<div class="container">
+					<div class="col-md-7 testimonial__container">
+						<img src="images/inverted-comma.png"  class="testimonal-closer testimonal-closer1" alt="inverted comma">
+						<img src="images/inverted-comma1.png" class="testimonal-closer testimonal-closer2"  alt="inverted comma">
+						<div class="testimonial__content">
+							<img src="images/testimonial-avatar.png" class="testimonial__avatar" alt="testimonial avatar">
+							<div class="testimonial__text-wrapper">
+								<p class="testimonial__text">Hiver is hands down the best way for us to collaborate on Gmail. Managing our scheduling has never been easier.</p>
+								<h5 class="testimonial__person">Christian Leybold - (General Partner, eVentures.vc)</h5>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Testimonial -->
+
+			<!-- Features -->
+			<section class="features">
+				<div class="container">
+					<div class="col-sm-12 col-lg-6">
+						<div class="col-md-6">
+							<div class="feature__box feature__box1">
+								<div class="feature__icon feature__icon1"></div>
+								<h3 class="feature__heading">Quick Sync</h3>
+								<p class="feature__text">Guarantee exceptional support through phone, email, your website and even Facebook and Twitter. All from one place!</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="feature__box feature__box2">
+								<div class="feature__icon feature__icon2"></div>
+								<h3 class="feature__heading">Simple Management</h3>
+								<p class="feature__text">Reduce support load by helping customers help themselves to FAQs and discussions on your self-service portal.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-6">
+						<div class="col-md-6">
+							<div class="feature__box feature__box3">
+								<div class="feature__icon feature__icon3"></div>
+								<h3 class="feature__heading">Tasks and Notifications</h3>
+								<p class="feature__text">Get your Sales & Support teams work together. Let go of those syncing issues; integrate 'em like never before.</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="feature__box feature__box4">
+								<div class="feature__icon feature__icon4"></div>
+								<h3 class="feature__heading">Automatic Reply Sync</h3>
+								<p class="feature__text">No hidden charges, no under the belt add ons, your monthly cost with the Sprout plan is exactly $0.</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Features -->
+
+			<!-- Partner -->
+			<section class="partner">
+				<div class="container">
+					<div class="col-sm-12 col-xl-6">
+						<div class="col-sm-4 logo-box">
+							<div class="partner__logo partner__logo1"></div>
+						</div>
+						<div class="col-sm-4 logo-box">
+							<div class="partner__logo partner__logo2"></div>
+						</div>
+						<div class="col-sm-4 logo-box">
+							<div class="partner__logo partner__logo3"></div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-xl-6">
+						<div class="col-sm-4 logo-box">
+							<div class="partner__logo partner__logo4"></div>
+						</div>
+						<div class="col-sm-4 logo-box">
+							<div class="partner__logo partner__logo5"></div>
+						</div>
+						<div class="col-sm-4 logo-box">
+							<div class="partner__logo partner__logo6"></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Partner -->
+
+			<!-- Footer -->
+			<footer>
+				<div class="container">
+					<div class="footer">
+						<div class="footer__content">
+							<div class="footer__logo">
+								<img src="images/footer-logo.png" alt="logo">
+							</div>
+							<div class="copyright-text">
+								<small>© 2016  Copyright  Hiver. All Rights Reserved</small>
+							</div>
+							<div class="separator"></div>
+							<div class="terms">
+								<small>Terms of Service</small>
+							</div>
+							<div class="separator"></div>
+							<div class="policy">
+								<small>Privacy Policy</small>
+							</div>
+						</div>
+						<div class="footer__tag">
+							<small>Simple, powerful collaboration with Shared Gmail Labels</small>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- /Footer -->
+		</main>
+		<script src="src/script/script.js"></script>
+	</body>
+</html>
